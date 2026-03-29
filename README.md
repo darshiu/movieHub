@@ -1,16 +1,104 @@
-# React + Vite
+<div align="center">
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Banner]MovieHub
 
-Currently, two official plugins are available:
+<p align="center">
+  <a href="#features">Features</a> •
+  <a href="#demo">Demo</a> •
+  <a href="#screenshots">Screenshots</a> •
+  <a href="#installation">Installation</a> •
+  <a href="#tech-stack">Tech Stack</a>
+</p>
+[![Made with React](https://img.shields.io/badge/Made%20with-React-61DAFB?style=flat-square&logo=react)](https://reactjs.org)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+<p align="center">A modern, responsive Movies and TV Series App in React, Vite, and Material UI.  ✨</p>
 
-## React Compiler
+</div>
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the ESLint configuration
+<div align="center">
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```mermaid
+mindmap
+  root((Portfolio Website))
+    User Interface
+      Responsive Design
+      Smooth Animations
+      Interactive 3D Elements
+    Sections
+      About Me
+      Experience
+      Projects
+      Contact
+    Technical Features
+      React with Vite
+      Tailwind CSS Styling
+      EmailJS Integration
+    Integrations
+       Email Contact
+      Project Showcase
+```
+
+</div>
+
+## 🚀 Demo
+
+Experience the live portfolio at [https://portfolio-lohit.vercel.app](https://portfolio-lohit.vercel.app)
+
+## 🛠️ Installation
+
+1️⃣ Clone the repository:
+
+```bash
+git clone https://github.com/darshiu/movieHub
+```
+
+2️⃣ Navigate to project directory:
+
+```bash
+cd movieHub
+```
+
+3️⃣ Install dependencies:
+
+```bash
+npm install
+```
+
+4️⃣ Run development server:
+
+```bash
+npm run dev
+```
+
+5️⃣ Open in browser:
+
+- Visit [http://localhost:3000](http://localhost:3000)
+
+## 💻 Tech Stack
+
+<table align="center">
+  <tr>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=react" width="48" height="48" alt="React" />
+      <br>React
+    </td>
+      <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=vite" width="48" height="48" alt="Vite" />
+      <br>Vite
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=materialui" width="48" height="48" alt="Material UI" />
+      <br>Material UI
+    </td>
+  </tr>
+</table>
+- 📱 MovieDB / TMDB API - 
+- Website - https://developers.themoviedb.org/3
+Create a .env file in your project root:
+
+VITE_API_KEY=your_real_api_key_here
+## ⚡ Core Features
+
+
