@@ -1,6 +1,10 @@
 <div align="center">
 
-![Banner]MovieHub
+# 🌟🎬 MovieHub 🎬🌟
+
+**Explore trending movies, TV series, and trailers — all in one place 🚀**
+
+---
 
 <p align="center">
   <a href="#features">Features</a> •
@@ -9,42 +13,30 @@
   <a href="#installation">Installation</a> •
   <a href="#tech-stack">Tech Stack</a>
 </p>
+
+
 [![Made with React](https://img.shields.io/badge/Made%20with-React-61DAFB?style=flat-square&logo=react)](https://reactjs.org)
 
 <p align="center">A modern, responsive Movies and TV Series App in React, Vite, and Material UI.  ✨</p>
 
 </div>
 
-## ✨ Features
+## 🚀 Features
 
-<div align="center">
+* 🔥 **Trending** — Discover the latest trending movies and TV shows updated daily
+* 🎬 **Movies** — Browse and explore a wide collection of popular movies
+* 📺 **TV Series** — Find and watch details about trending TV series
+* 🔍 **Search** — Search for movies and TV shows instantly
+* ▶️ **Watch Trailers** — Play official trailers directly in the app
+* ⭐ **Ratings** — View movie ratings and popularity
+* 📱 **Responsive Design** — Works smoothly on mobile, tablet, and desktop
 
-```mermaid
-mindmap
-  root((Portfolio Website))
-    User Interface
-      Responsive Design
-      Smooth Animations
-      Interactive 3D Elements
-    Sections
-      About Me
-      Experience
-      Projects
-      Contact
-    Technical Features
-      React with Vite
-      Tailwind CSS Styling
-      EmailJS Integration
-    Integrations
-       Email Contact
-      Project Showcase
-```
+---
 
-</div>
 
 ## 🚀 Demo
 
-Experience the live portfolio at [https://portfolio-lohit.vercel.app](https://portfolio-lohit.vercel.app)
+Experience the live portfolio at [https://darshiu.github.io/moviehub/](https://darshiu.github.io/moviehub/)
 
 ## 🛠️ Installation
 
@@ -94,11 +86,33 @@ npm run dev
     </td>
   </tr>
 </table>
-- 📱 MovieDB / TMDB API - 
-- Website - https://developers.themoviedb.org/3
-Create a .env file in your project root:
 
+## 📱 MovieDB / TMDB API
+
+This project uses **TMDB (The Movie Database) API** to fetch movie and TV series data.
+
+* **Website:** https://developers.themoviedb.org/3
+
+---
+
+### 🔑 Setup API Key
+
+1. Create a `.env` file in the root of your project:
+
+```bash
 VITE_API_KEY=your_real_api_key_here
-## ⚡ Core Features
+```
+
+2. Replace `your_real_api_key_here` with your **TMDB API key**.
+
+3. Access the API key in your React code like this:
+
+```js
+const API_KEY = import.meta.env.VITE_API_KEY;
+
+const trendingMoviesUrl = `https://api.themoviedb.org/3/trending/all/day?api_key=${API_KEY}`;
+```
+
+
 
 
