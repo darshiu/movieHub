@@ -1,16 +1,117 @@
-# React + Vite
+<div align="center">
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🌟🎬 MovieHub 🎬🌟
 
-Currently, two official plugins are available:
+**Explore trending movies, TV series, and trailers — all in one place 🚀**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+<p align="center">
+  <a href="#features">Features</a> •
+  <a href="#demo">Demo</a> •
+  <a href="#screenshots">Screenshots</a> •
+  <a href="#installation">Installation</a> •
+  <a href="#tech-stack">Tech Stack</a>
+</p>
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+[![Made with React](https://img.shields.io/badge/Made%20with-React-61DAFB?style=flat-square&logo=react)](https://reactjs.org)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+</div>
+
+## 🚀 Features
+
+* 🔥 **Trending** — Discover the latest trending movies and TV shows updated daily
+* 🎬 **Movies** — Browse and explore a wide collection of popular movies
+* 📺 **TV Series** — Find and watch details about trending TV series
+* 🔍 **Search** — Search for movies and TV shows instantly
+* ▶️ **Watch Trailers** — Play official trailers directly in the app
+* ⭐ **Ratings** — View movie ratings and popularity
+* 📱 **Responsive Design** — Works smoothly on mobile, tablet, and desktop
+
+---
+
+
+## 🚀 Demo
+
+Experience the live portfolio at [https://darshiu.github.io/moviehub/](https://darshiu.github.io/moviehub/)
+
+## 🛠️ Installation
+
+1️⃣ Clone the repository:
+
+```bash
+git clone https://github.com/darshiu/movieHub
+```
+
+2️⃣ Navigate to project directory:
+
+```bash
+cd movieHub
+```
+
+3️⃣ Install dependencies:
+
+```bash
+npm install
+```
+
+4️⃣ Run development server:
+
+```bash
+npm run dev
+```
+
+5️⃣ Open in browser:
+
+- Visit [http://localhost:8086](http://localhost:8086)
+
+## 💻 Tech Stack
+
+<table align="center">
+  <tr>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=react" width="48" height="48" alt="React" />
+      <br>React
+    </td>
+      <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=vite" width="48" height="48" alt="Vite" />
+      <br>Vite
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=materialui" width="48" height="48" alt="Material UI" />
+      <br>Material UI
+    </td>
+  </tr>
+</table>
+
+## 📱 MovieDB / TMDB API
+
+This project uses **TMDB (The Movie Database) API** to fetch movie and TV series data.
+
+* **Website:** https://developers.themoviedb.org/3
+
+---
+
+### 🔑 Setup API Key
+
+1. Create a `.env` file in the root of your project:
+
+```bash
+VITE_API_KEY=your_real_api_key_here
+```
+
+2. Replace `your_real_api_key_here` with your **TMDB API key**.
+
+3. Access the API key in your React code like this:
+
+```js
+const API_KEY = import.meta.env.VITE_API_KEY;
+
+const trendingMoviesUrl = `https://api.themoviedb.org/3/trending/all/day?api_key=${API_KEY}`;
+```
+
+
+
+
