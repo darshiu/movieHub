@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "/moviehub/", 
+  base: "/movieHub/", 
   server:{
     port: 8086,
     host: true,

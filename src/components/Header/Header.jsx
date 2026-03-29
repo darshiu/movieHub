@@ -10,7 +10,7 @@ const Header = ()=> {
   const navigate = useNavigate();
   const location = useLocation();
 
-  const routes = ["/moviehub/", "/moviehub/movies", "/moviehub/series", "/moviehub/search"];
+  const routes = ["/movieHub/", "/movieHub/movies", "/movieHub/series", "/movieHub/search"];
 
   const currentTab = routes.indexOf(location.pathname);
 
