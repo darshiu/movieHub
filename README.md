@@ -17,7 +17,6 @@
 
 [![Made with React](https://img.shields.io/badge/Made%20with-React-61DAFB?style=flat-square&logo=react)](https://reactjs.org)
 
-<p align="center">A modern, responsive Movies and TV Series App in React, Vite, and Material UI.  ✨</p>
 
 </div>
 
