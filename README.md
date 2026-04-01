@@ -35,7 +35,7 @@
 
 ## 🚀 Demo
 
-Experience the live portfolio at [https://darshiu.github.io/movieHub/](https://darshiu.github.io/movieHub/)
+[https://darshiu.github.io/movieHub/](https://darshiu.github.io/movieHub/)
 
 ## 🛠️ Installation
 
